@@ -22,7 +22,7 @@ int checkParanthesis(string str){
 	return 1;
 	
 }
-
+//Note : The above code works only for string with parantheses and not any other characters 
 int main(){
 
 

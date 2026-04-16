@@ -10,8 +10,8 @@ using namespace std;
 //It has no iterators
 
 //Solve the valid paranthesis problem
-template<class T,class U=void>
-void display(stack<T,U> s ){
+template<class T>
+void display(stack<T> s ){
 	while(!s.empty()){
 		cout << s.top() <<endl;
 		
