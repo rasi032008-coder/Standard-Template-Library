@@ -16,13 +16,14 @@ int main(){
 	set<int> s={1,2,2};
 
 	s.insert(10);
-	
+		s.erase(10);
 	set<int> s1(v.begin(),v.begin()+7);
 
 	cout << "Elements of s:" << endl;
 	for(int x : s){
 		cout << x << endl;
 	}
+
 
 	cout << endl << "Elements of s1:\n";
 	for(int x : s1){

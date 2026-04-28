@@ -19,14 +19,13 @@ int checkParanthesis(string str){
 		else return 0;
 	}	
 
-	return 1;
-	
+	return s.empty();
 }
 //Note : The above code works only for string with parantheses and not any other characters 
 int main(){
 
+	
 
-
-	string s = "{[]}";
+	string s = "{[()]}";
 	cout << checkParanthesis(s);//Output is 1
 }

@@ -22,6 +22,7 @@ int main(){
 	d.push_front(1);
 	d.push_front(0);
 	d.pop_back();
+	d.pop_front();
 
 	cout << d.at(1) << endl;
 	for(int x : d){

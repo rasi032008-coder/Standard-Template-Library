@@ -18,7 +18,9 @@ int main(){
 
 	f.pop_front();
 
+	
 	cout << "First element " <<  *(f.begin()) << endl;
+	cout << "First element " <<  (f.front()) << endl;
 //	cout << "Last element " << *(f.end()) << endl;
 //??
 
